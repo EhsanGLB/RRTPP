@@ -2,7 +2,7 @@
 This is a post-processing for relative residence time written based on foam-extend-4.1.
 
 ## Math equation
-$$ magTAWSS = \int_0^T \mid WSS \mid \ dt $$
+$$ RRT = 1 \over {TAWSS\left(1 - 2*OSI \right)} $$
 
 Which $\tau_w$, $\mu$, $U$, and $n$ are wall shear stress, dynamic viscosity, velocity vector, and perpendicular vector, respectively.
 
